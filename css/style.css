@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+}
+.playground > ul {
+  width: 250px;
+  border-collapse: collapse;
+}
+.playground > ul > li {
+  width: 100%;
+  height: 25px;
+}
+.playground > ul > li > ul {
+  display: flex;
+}
+.playground > ul > li > ul > li {
+  width: 25px;
+  height: 25px;
+  outline: 1px solid #ccc;
+  font-size: 12px;
+}
+
+.square {
+  background: #2c82c9;
+}
+.bar {
+  background: salmon;
+}
+.tree {
+  background: #67c23a;
+}
+.zee {
+  background: #e6a23c;
+}
+.elLeft {
+  background: #8e44ad;
+}
+.elRight {
+  background: #16a085;
+}
